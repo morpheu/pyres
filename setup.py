@@ -24,14 +24,14 @@ class PyTest(TestCommand):
 
 version='1.4.2'
 setup(
-    name='pyres',
+    name='pyres_glb',
     version=version,
-    description='Python resque clone',
+    description='Python resque clone - with redis auth',
     author='Matt George',
     author_email='mgeorge@gmail.com',
-    maintainer='Matt George',
+    maintainer='Paulo Sousa',
     license='MIT',
-    url='http://github.com/binarydud/pyres',
+    url='http://github.com/morpheu/pyres',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
     download_url='http://pypi.python.org/packages/source/p/pyres/pyres-%s.tar.gz' % version,
     include_package_data=True,
