@@ -33,7 +33,6 @@ setup(
     license='MIT',
     url='http://github.com/morpheu/pyres',
     packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
-    download_url='http://pypi.python.org/packages/source/p/pyres/pyres-%s.tar.gz' % version,
     include_package_data=True,
     package_data={'': ['requirements.txt']},
     entry_points = """\
