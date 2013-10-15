@@ -22,7 +22,7 @@ class PyTest(TestCommand):
         result = pytest.main(self.test_args)
         sys.exit(result)
 
-version='1.4.2.1'
+version='1.4.2.2'
 setup(
     name='pyres_glb',
     version=version,
